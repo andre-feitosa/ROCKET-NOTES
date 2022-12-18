@@ -1,0 +1,10 @@
+.section_container h2{
+    border-bottom: 1px solid rgb(129, 129, 129);
+
+    padding-bottom: 1px;
+    width: 100px;
+
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}

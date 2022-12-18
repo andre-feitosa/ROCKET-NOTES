@@ -1,0 +1,19 @@
+.textarea_container {
+    width: 97%;
+    height: 150px;
+
+    background: #2c2a35;
+    color: white;
+
+    border: none;
+    resize: none;
+
+    margin-bottom: 8px;
+    border-radius: 10px;
+    padding: 16px;
+    margin-top: 10px;
+}
+
+.textarea_container::placeholder {
+    color: gray;
+}

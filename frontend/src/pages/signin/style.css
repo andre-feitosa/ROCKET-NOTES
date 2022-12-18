@@ -1,0 +1,79 @@
+.signin_container {
+    height: 100vh;
+
+    display: flex;
+    align-items: stretch;
+    color: white;
+}
+
+.signin_container h1 {
+    font-size: 48px;
+    color: orange;
+}
+
+.signin_container img {
+    width: 60%;
+    filter: grayscale(60%);
+}
+
+.signin_container h2 {
+    font-size: 24px;
+    margin: 48px 0;
+}
+
+.signin_container p {
+    font-size: 14px;
+    color: gray;
+}
+
+.signin_container a {
+    margin-top: 70px;
+    color: orange;
+}
+
+.signin_container input {
+    background: #2c2a35;
+    height: 56px;
+    width: 100%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.signin_container form {
+    padding: 0 136px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.signin_container button {
+    background: orange;
+    cursor: pointer;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    height: 50px;
+    margin-top: -12px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.input_mail {
+    background: #2c2a35;
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 20px;
+    color: gray;
+    border-radius: 10px;
+    width: 95%;
+}
+
+.input_mail ~ .input_mail {
+    margin-top: 10px;
+}

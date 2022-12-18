@@ -1,0 +1,48 @@
+.header_container {
+
+    height: 112px;
+    display: flex;
+    min-width: 59em;
+    justify-content: space-between;
+    padding: 0 80px;
+    margin-top: -8px;
+
+    border-bottom: 1px solid rgb(83, 83, 83);
+    background: var(--color-background);
+}
+
+.header_container img{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+}
+
+.profile_container {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    line-height: 24px;
+}
+
+.profile span {
+    font-size: 14px;
+    color: rgb(153, 153, 153);
+}
+
+.profile strong {
+    font-size: 18px;
+    color: rgb(252, 252, 252);
+}
+
+.logout_container {
+    color: grey;
+    cursor: pointer;
+
+    font-size: 24px;
+    margin-top: 1.5em;
+}

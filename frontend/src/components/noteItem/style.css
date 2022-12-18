@@ -1,0 +1,119 @@
+.tags_container {
+    display: flex;
+    background: #2c2a35;
+    align-items: center;
+    border-radius: 10px;
+    width: 35.5em;
+    margin-top: 10px;
+}
+
+.tags_container input {
+    border-radius: 10px;
+}
+
+.tags_container svg {
+    color: red;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.newtag_container {
+    background-color: var(--color-background);
+    display: flex;
+    width: 41.5%;
+    position: absolute;
+    border-radius: 10px;
+    border: 1px dashed white;
+    margin-top: 20px;
+}
+
+.newtag_container button {
+    background-color: var(--color-background);
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.newtag_container input {
+    background: transparent;
+    border-radius: 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.linear_gray {
+    position: absolute;
+    width: 41.5%;
+    height: 1px;
+    background: gray;
+    margin-top: 5px;
+}
+
+.newnote_container span{
+    font-size: 25px;
+}
+
+.marks_container {
+    margin-top: 90px;
+}
+
+.marktag_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newmarktag_container {
+    background-color: transparent;
+    display: flex;
+    width: 37%;
+    border-radius: 10px;
+    border: 1px dashed white;
+    margin-top: 14px;
+    margin-left: 50px;
+}
+
+.newmarktag_container input {
+    background: transparent;
+    border-radius: 0px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.newmarktag_container button {
+    background-color: var(--color-background);
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.markcolons_container{
+    display: flex;
+    background: #2c2a35;
+    align-items: center;
+    border-radius: 10px;
+    width: 13em;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.markcolons_container input {
+    border-radius: 10px;
+}
+
+.markcolons_container svg {
+    color: red;
+    cursor: pointer;
+    padding-right: 20px;
+}
+
+.tagsmark_container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marknew_container {
+    display: flex;
+    flex-wrap: wrap;
+}
